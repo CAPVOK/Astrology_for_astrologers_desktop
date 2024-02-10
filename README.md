@@ -1,27 +1,19 @@
-# React + TypeScript + Vite
+# Астрономия для астрологов
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Проект создан в рамках курса "Разработка интернет-приложений" и включает в себя фронтенд, бэкенд, десктопное приложение и РПЗ. Веб-приложение выполнено в формате "Услуги/заявки", где услуги представлены планетами, а заявки — астрологическими созвездиями. Подробнее о проекте можно узнать в [РПЗ](https://github.com/CAPVOK/Astrology_for_Astrologers_documentation).
 
-Currently, two official plugins are available:
+### Ссылки на репозитории проекта:
+1. [Фронтенд](https://github.com/CAPVOK/Astrology_for_Astrologers_Front)
+2. [Бэкенд](https://github.com/CAPVOK/Astrology_for_Astrologers_Back)
+3. [Десктопное приложение](https://github.com/CAPVOK/Astrology_for_Astrologers_Desktop)
+4. [GitHub Pages](https://capvok.github.io/Astrology_for_Astrologers_Front/#/)
+5. [РПЗ](https://github.com/CAPVOK/Astrology_for_Astrologers_documentation)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Десктопное приложение
+Десктопное приложение создано с использованием фреймворка Tauri через Tauri-cli.
 
-## Expanding the ESLint configuration
+## Инструкция по установке и запуску:
+- Установите зависимости: `npm install`
+- Запустите десктопное приложение: `npm run tauri dev`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+После выполнения этих шагов откроется приложение
